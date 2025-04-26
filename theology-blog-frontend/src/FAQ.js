@@ -17,7 +17,7 @@ const FAQ = () => {
   ];
 
   return (
-    <div>
+    <div className="faq-page">
       <h2>Frequently Asked Questions</h2>
       <ul>
         {questions.map((q, idx) => (
